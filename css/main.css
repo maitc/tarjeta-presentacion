@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Slabo 27px', serif;
+}
+.tarjeta{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#foto{
+	background-image: url('../img/Smiling_Shibas_Hero.jpg');
+	width: 600px;
+	height: 319px;
+	position: absolute;
+	top: 105px;
+	left: 113px;
+}
+#seccion-texto{
+	width: 160px;
+	height: 0;
+	border-bottom: 321px solid #1B1313;
+	border-left: 328px solid transparent;
+	position: absolute;
+	top: 104px;
+	left: 345px;
+}
+#nombre, #info{
+	color: whitesmoke;
+}
+#cargo{
+	color: orange;
+	position: absolute;
+	top: 141px;
+	left: -85px;
+}
+#nombre{
+	position: absolute;
+	top: 85px;
+	left: -61px;
+}
+#info{
+	position: absolute;
+	top: 187px;
+	left: -115px;
+}
+.foto-logo{
+	display: block;
+}
+#logo1{
+	width: 200px;
+	height: 200px;
+	background: url('../img/Laboratoria_Logo.png');
+    position: absolute;
+    left: 450px;
+    bottom: 1200px;
+}
